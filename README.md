@@ -37,13 +37,11 @@ Download the starter code and open it in your preferred code-editing application
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Screenshots:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Note Taker Screenshot 1](Develop/public/assets/images/11-express-homework-demo-01.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Note Taker Screenshot 2](Develop/public/assets/images/11-express-homework-demo-02.png)
 
 ## Credits
 
