@@ -2,8 +2,12 @@ const path = require('path');
 const fs = require('fs');
 const uuid = require('uuid');
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const app = express();
+
+// Serve static files from the "public" directory
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
